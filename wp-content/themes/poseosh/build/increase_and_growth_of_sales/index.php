@@ -19,10 +19,10 @@
           <option value="">Санкт-Петербург</option>
         </select>
       </div>
-      <div class="logo">
+      <a href="/" class="logo">
         <p class="logo__title">POSEOSH</p>
         <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ ПРОДАЖ С САЙТА</p>
-      </div>
+      </a>
     </div>
   </header>
 
@@ -54,8 +54,9 @@
         </div>
         <a href="#" class="text__button">Хочу много денег!</a>
       </section>
-      <div class="sidebar">
 
+
+      <div class="sidebar">
         <div class="sidebar__col">
           <ul class="sidebar__list">
             <li class="sidebar__item"><a href="#" class="sidebar__link">Поиск и привлечение клиентов</a></li>
@@ -82,8 +83,9 @@
             <li class="sidebar__item"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ИНСТРУКЦИЯ</a></li>
           </ul>
         </div>
-
       </div>
+
+
     </div>
   </div>
 

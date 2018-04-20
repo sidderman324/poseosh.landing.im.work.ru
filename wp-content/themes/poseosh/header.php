@@ -26,18 +26,29 @@
 </head>
 <body <?php body_class(); ?>>
 
+<div class="main__wrapper">
+
 <header class="page-header">
     <div class="container page-header__inner">
-        <div class="city">
-            <p class="city__name">Санкт-Петербург</p>
-            <select name="" id="" class="city__select">
-                <option value="">Выбрать другой город</option>
-                <option value="">Санкт-Петербург</option>
-            </select>
-        </div>
-        <div class="logo">
+        <a href="/" class="logo">
             <p class="logo__title">POSEOSH</p>
             <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ ПРОДАЖ С САЙТА</p>
+        </a>
+
+        <div class="city">
+            <div class="city__wrapper">
+                <a href="#" class="city__btn">Да</a>
+                <a href="#" class="city__btn">Нет</a>
+                <p class="city__name">Санкт-Петербург</p>
+                <p class="city__name">Ваш город?</p>
+            </div>
+            <!-- <div class="city__wrapper">
+            <p class="city__name">Санкт-Петербург</p>
+            <select name="" id="" class="city__select">
+            <option value="">Выбрать другой город</option>
+            <option value="">Санкт-Петербург</option>
+          </select>
+        </div> -->
         </div>
     </div>
 </header>

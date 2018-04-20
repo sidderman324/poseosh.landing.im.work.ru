@@ -6,6 +6,8 @@ function styleConnect(){
 
     wp_enqueue_style('font-style', 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic');
 
+    wp_enqueue_script('js', get_template_directory_uri() . 'js/script.min.js');
+
 }
 add_action( 'wp_enqueue_scripts', 'styleConnect' );
 
