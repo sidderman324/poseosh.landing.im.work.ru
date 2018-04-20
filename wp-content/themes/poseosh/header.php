@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <?php
     if( is_page() ){
-        $title = get_the_title();
+        $title = get_post_meta($post->ID, 'seo_title',true);
+        $keywords = get_post_meta($post->ID, 'meta_k',true);
+        $description = get_post_meta($post->ID, 'meta_d',true);
     }else{
         $title = get_bloginfo('name');
     }
+
+
     ?>
+
+    <meta name="keywords" content="<?=$keywords?>" />
+    <meta name="description" content="<?=$description?>" />
+
 
     <title><?= $title ?></title>
     <?php wp_head(); ?>
