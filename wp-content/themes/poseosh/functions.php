@@ -118,7 +118,7 @@ $main_options = array(
                 array(
                     'id'			=> 'meta_d',
                     'label'			=> 'Description',
-                    'type'			=> 'textarea', // table of types is above
+                    'type'			=> 'text', // table of types is above
                     'placeholder' 	=> 'Здесь Описание индексной страницы'
                 )
             )

@@ -28,13 +28,32 @@
 
 <!--<div class="main__wrapper">-->
 
+<?php
+/*$ip = $_SERVER['REMOTE_ADDR'];
+// Москва
+// $ip='212.24.44.1';
+// Новосибирск
+// $ip='195.208.131.1';
+get_template_part(  '/geoip/ipgeobase');
+$gb = new IPGeoBase();
+
+$data = $gb->getRecord($ip);
+
+$city = iconv('windows-1251', 'UTF-8', $data['city']);
+
+if ($city == 'Москва') {
+    $geo = $msk;
+} else {
+    $geo = $spb;
+}*/
+?>
+
 <header class="page-header">
     <div class="container page-header__inner">
         <a href="/" class="logo">
             <p class="logo__title">POSEOSH</p>
             <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ ПРОДАЖ С САЙТА</p>
         </a>
-
         <div class="city">
             <div class="city__wrapper">
                 <a href="#" class="city__btn">Да</a>
