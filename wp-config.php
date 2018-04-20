@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'u68678_poseoshim_qih');
+define('DB_NAME', 'wp_poseosh');
 
 /** MySQL database username */
-define('DB_USER', 'u68678_qih');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'j9a1qton');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -68,7 +68,17 @@ $table_prefix = 'qih';
  */
 define('WP_DEBUG', false);
 
+
+
 /* That's all, stop editing! Happy blogging. */
+define('WP_ALLOW_MULTISITE', true);
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'poseosh.landing.im.work.ru');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
