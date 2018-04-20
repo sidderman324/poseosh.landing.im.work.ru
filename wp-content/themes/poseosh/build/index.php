@@ -42,7 +42,7 @@
   <div class="container main__inner">
     <div class="main__scroll" id="fullpage">
 
-      <section class="block section" data-anchor="section0" id="section0">
+      <section class="block section" data-anchor="firstPage" id="section0">
         <p class="block__main-title">SEO</p>
         <div class="block__col">
           <h2 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h2>
@@ -56,9 +56,9 @@
         </div>
       </section>
 
-      <section class="block section block--how" data-anchor="section1" id="section1">
+      <section class="block section block--how" data-anchor="secondPage" id="section1">
 
-        <div class="block__col block__col--how">
+        <div class="block__col block__col--how block__col--pic">
           <h2 class="block__title">КАК РАБОТАЕТ<br> СЕРВИС</h2>
           <p class="block__text block__text--bold">ПОСЛЕДОВАТЕЛЬНОСТЬ РАБОТЫ</p>
           <ul class="block__list">
@@ -82,7 +82,7 @@
 
       </section>
 
-      <section class="block section block--result" data-anchor="section2" id="section2">
+      <section class="block section block--result" data-anchor="3rdPage" id="section2">
         <div class="block__col">
           <h2 class="block__title">РОСТ ПРОДАЖ<br> С САЙТА</h2>
           <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
@@ -116,7 +116,7 @@
         </div>
       </section>
 
-      <section class="block section" data-anchor="section3" id="section3">
+      <section class="block section" data-anchor="4thpage" id="section3">
 
         <div class="tarif__wrapper">
 
@@ -127,11 +127,11 @@
               <p class="tarif__descr">РУБЛЕЙ В МЕСЯЦ <br>ДО 15 ЗАПРОСОВ</p>
             </div>
             <ul class="tarif__list">
-              <li class="tarif__item">ДОБАВЛЕНИЕ СТАТЕЙ</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
-              <li class="tarif__item">РЕДАКТИРОВАНИЕ КОДА</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ ПРАВ</li>
-              <li class="tarif__item">ПОЛНЫЙ КОНТРОЛЬ</li>
+              <li class="tarif__item tarif__item--yes">ДОБАВЛЕНИЕ СТАТЕЙ</li>
+              <li class="tarif__item tarif__item--no">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
+              <li class="tarif__item tarif__item--no">РЕДАКТИРОВАНИЕ КОДА</li>
+              <li class="tarif__item tarif__item--no">ИЗМЕНЕНИЕ ПРАВ</li>
+              <li class="tarif__item tarif__item--no">ПОЛНЫЙ КОНТРОЛЬ</li>
             </ul>
           </div>
           <div class="tarif">
@@ -141,11 +141,11 @@
               <p class="tarif__descr">РУБЛЕЙ В МЕСЯЦ <br>ДО 30 ЗАПРОСОВ</p>
             </div>
             <ul class="tarif__list">
-              <li class="tarif__item">ДОБАВЛЕНИЕ СТАТЕЙ</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
-              <li class="tarif__item">РЕДАКТИРОВАНИЕ КОДА</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ ПРАВ</li>
-              <li class="tarif__item">ПОЛНЫЙ КОНТРОЛЬ</li>
+              <li class="tarif__item tarif__item--yes">ДОБАВЛЕНИЕ СТАТЕЙ</li>
+              <li class="tarif__item tarif__item--yes">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
+              <li class="tarif__item tarif__item--no">РЕДАКТИРОВАНИЕ КОДА</li>
+              <li class="tarif__item tarif__item--no">ИЗМЕНЕНИЕ ПРАВ</li>
+              <li class="tarif__item tarif__item--no">ПОЛНЫЙ КОНТРОЛЬ</li>
             </ul>
           </div>
           <div class="tarif">
@@ -155,11 +155,11 @@
               <p class="tarif__descr">РУБЛЕЙ В МЕСЯЦ <br>ДО 50 ЗАПРОСОВ</p>
             </div>
             <ul class="tarif__list">
-              <li class="tarif__item">ДОБАВЛЕНИЕ СТАТЕЙ</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
-              <li class="tarif__item">РЕДАКТИРОВАНИЕ КОДА</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ ПРАВ</li>
-              <li class="tarif__item">ПОЛНЫЙ КОНТРОЛЬ</li>
+              <li class="tarif__item tarif__item--yes">ДОБАВЛЕНИЕ СТАТЕЙ</li>
+              <li class="tarif__item tarif__item--yes">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
+              <li class="tarif__item tarif__item--yes">РЕДАКТИРОВАНИЕ КОДА</li>
+              <li class="tarif__item tarif__item--no">ИЗМЕНЕНИЕ ПРАВ</li>
+              <li class="tarif__item tarif__item--no">ПОЛНЫЙ КОНТРОЛЬ</li>
             </ul>
           </div>
           <div class="tarif">
@@ -169,47 +169,47 @@
               <p class="tarif__descr">РУБЛЕЙ В МЕСЯЦ <br>ДО 100 ЗАПРОСОВ</p>
             </div>
             <ul class="tarif__list">
-              <li class="tarif__item">ДОБАВЛЕНИЕ СТАТЕЙ</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
-              <li class="tarif__item">РЕДАКТИРОВАНИЕ КОДА</li>
-              <li class="tarif__item">ИЗМЕНЕНИЕ ПРАВ</li>
-              <li class="tarif__item">ПОЛНЫЙ КОНТРОЛЬ</li>
+              <li class="tarif__item tarif__item--yes">ДОБАВЛЕНИЕ СТАТЕЙ</li>
+              <li class="tarif__item tarif__item--yes">ИЗМЕНЕНИЕ СТИЛЕЙ</li>
+              <li class="tarif__item tarif__item--yes">РЕДАКТИРОВАНИЕ КОДА</li>
+              <li class="tarif__item tarif__item--yes">ИЗМЕНЕНИЕ ПРАВ</li>
+              <li class="tarif__item tarif__item--yes">ПОЛНЫЙ КОНТРОЛЬ</li>
             </ul>
           </div>
         </div>
 
       </section>
 
-      <section class="block section" data-anchor="section4" id="section4">
-        <div class="block__col">
+      <section class="block section block--how" data-anchor="lastPage" id="section4">
+        <div class="block__col block__col--contact block__col--how block__col--pic">
           <h2 class="block__title">КОНТАКТЫ</h2>
 
-          <p class="block__text">ПОДДЕРЖКА:</p>
+          <p class="block__text block__text--contact">ПОДДЕРЖКА:</p>
           <ul class="block__list">
-            <li class="block__item"><a href="#">SUPPORT@POSEOSH.IM</a></li>
+            <li class="block__item block__item--contact"><a href="#">SUPPORT@POSEOSH.IM</a></li>
           </ul>
-          <p class="block__text">ОТДЕЛ ПРОДАЖ:</p>
+          <p class="block__text block__text--contact">ОТДЕЛ ПРОДАЖ:</p>
           <ul class="block__list">
-            <li class="block__item"><a href="">SALES@POSEOSH.IM</a></li>
+            <li class="block__item block__item--contact"><a href="">SALES@POSEOSH.IM</a></li>
           </ul>
-          <p class="block__text">СОЦИАЛЬНЫЕ СЕТИ:</p>
+          <p class="block__text block__text--contact">СОЦИАЛЬНЫЕ СЕТИ:</p>
           <ul class="block__list">
-            <li class="block__item"><a href="">ФЕЙСБУК</a></li>
-            <li class="block__item"><a href="">ВКОНТАКТЕ</a></li>
-            <li class="block__item"><a href="">ИНСТАГРАМ</a></li>
+            <li class="block__item block__item--contact"><a href="">ФЕЙСБУК</a></li>
+            <li class="block__item block__item--contact"><a href="">ВКОНТАКТЕ</a></li>
+            <li class="block__item block__item--contact"><a href="">ИНСТАГРАМ</a></li>
           </ul>
         </div>
 
-        <div class="block__col">
+        <div class="block__col block__col--contact block__col--how">
           <h2 class="block__title">ОБРАТНАЯ СВЯЗЬ</h2>
 
-          <p class="block__text block__text--bold">ЗАПОЛНИТЕ ПОЛЯ<br> МЫ СВЯЖЕМСЯ С ВАМИ</p>
+          <p class="block__text">ЗАПОЛНИТЕ ПОЛЯ<br> МЫ СВЯЖЕМСЯ С ВАМИ</p>
 
           <form action="" class="feedback">
-            <input type="text" class="feedback__input">
-            <input type="text" class="feedback__input">
-            <input type="text" class="feedback__input">
-            <input type="submit" class="block__btn">
+            <input type="text" class="feedback__input" placeholder="ИМЯ">
+            <input type="text" class="feedback__input" placeholder="E-MAIL">
+            <input type="text" class="feedback__input" placeholder="СООБЩЕНИЕ">
+            <input type="submit" class="block__btn" value="ОТПРАВИТЬ">
           </form>
         </div>
       </section>
@@ -222,7 +222,7 @@
 
 
 
-    <div class="sidebar">
+    <nav class="sidebar">
       <ul class="sidebar__list">
         <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ГЛАВНАЯ</a></li>
         <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ВХОД / РЕГИСТРАЦИЯ</a>
@@ -307,7 +307,7 @@
         <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ПОШАГОВАЯ ИНСТРУКЦИЯ</a></li>
         <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ИНСТРУКЦИЯ</a></li>
       </ul>
-    </div>
+    </nav>
 
   </div>
 </div>
@@ -321,10 +321,12 @@
       <li class="footer-list__item"><a href="#" class="footer-list__link">/ ИНСТАГРАМ</a></li>
     </ul>
 
-    <div class="scroll">
-      <div class="scroll__item"></div>
-      <div class="scroll__item"></div>
-      <div class="scroll__item"></div>
+    <div class="scroll" id="scroll">
+      <div class="scroll__item active" data-menuanchor="firstPage"></div>
+      <div class="scroll__item" data-menuanchor="secondPage"></div>
+      <div class="scroll__item" data-menuanchor="3rdPage"></div>
+      <div class="scroll__item" data-menuanchor="4thpage"></div>
+      <div class="scroll__item" data-menuanchor="lastPage"></div>
     </div>
     <p class="page-footer__text">СКРОЛЬТЕ ВНИЗ</p>
     <p class="page-footer__text">© 2018 Poseosh.im</p>

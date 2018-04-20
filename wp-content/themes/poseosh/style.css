@@ -446,7 +446,8 @@ body::-webkit-scrollbar-thumb {
 }
 .page-header {
   padding: 30px 0;
-  background-color: #f5f5f5;
+  z-index: 100;
+  background: linear-gradient(to top, rgba(245, 245, 245, 0) 0%, #f5f5f5 40%);
 }
 .page-header__inner {
   display: -ms-flex;
@@ -489,7 +490,6 @@ body::-webkit-scrollbar-thumb {
 .main {
   margin-top: 40px;
   height: 80vh;
-  overflow: hidden;
 }
 .main__wrapper {
   min-height: 100vh;
@@ -501,8 +501,8 @@ body::-webkit-scrollbar-thumb {
       justify-content: space-between;
 }
 .main__scroll {
-  -ms-flex-preferred-size: 77%;
-      flex-basis: 77%;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
 }
 .main__inner {
   display: -ms-flex;
@@ -607,17 +607,19 @@ body::-webkit-scrollbar-thumb {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
   display: -ms-flex;
+  width: 23%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
   -ms-flex-align: start;
-      align-items: flex-start;
-  position: relative;
+  align-items: flex-start;
+  position: fixed;
   padding-left: 35px;
   overflow: visible;
   height: 80vh;
   z-index: 10;
+  right: 0;
 }
 .sidebar:after {
   content: '';
@@ -690,7 +692,8 @@ body::-webkit-scrollbar-thumb {
 .page-footer {
   margin-top: auto;
   padding-bottom: 30px;
-  background-color: #f5f5f5;
+  z-index: 100;
+  background: linear-gradient(to bottom, rgba(245, 245, 245, 0) 0%, #f5f5f5 40%);
 }
 .page-footer__inner {
   display: -ms-flex;
@@ -824,9 +827,7 @@ body::-webkit-scrollbar-thumb {
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #cccccc;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 .block--how {
   -ms-flex-pack: end;
@@ -886,7 +887,7 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   text-align: left;
   padding-left: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .block__btn:hover {
   transition: 0.3s;
@@ -946,15 +947,66 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 35px;
   line-height: 1.5;
 }
+.block__item a {
+  font-size: 1em;
+  color: #212121;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  font-weight: 600;
+  text-decoration: none;
+}
 .block__col {
   width: 50%;
-  padding-left: 13%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 3%;
+  position: relative;
 }
 .block__col--how {
-  width: 35%;
-  padding-left: 5%;
-  padding-right: 2%;
+  width: 41%;
+  padding-left: 6%;
+}
+.block__col--how .block__item:before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #212121;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.block__col--contact .block__item {
+  width: 100%;
+  margin-bottom: 5px;
+  text-indent: 0;
+}
+.block__col--contact .block__item:before {
+  display: none;
+}
+.block__col--contact .block__list {
+  margin-bottom: 30px;
+}
+.block__col--contact .block__text {
+  font-weight: 600;
+  margin-top: 30px;
+}
+.block__col--pic {
+  height: 83%;
+  padding-right: 0;
+}
+.block__col--pic:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-image: url('img/how_bgr.png');
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 .submenu {
   padding-left: 15px;
@@ -971,6 +1023,7 @@ body::-webkit-scrollbar-thumb {
 }
 .submenu__item {
   list-style-type: none;
+  position: relative;
 }
 .submenu__link {
   font-size: 0.8em;
@@ -1026,7 +1079,7 @@ body::-webkit-scrollbar-thumb {
   text-transform: uppercase;
 }
 .tarif__list {
-  padding-left: 70px;
+  padding-left: 15px;
 }
 .tarif__item {
   font-size: 0.8em;
@@ -1037,6 +1090,25 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   text-transform: uppercase;
   line-height: 3;
+  padding-left: 45px;
+}
+.tarif__item:before {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tarif__item--yes:before {
+  background-image: url('img/tarif_yes.png');
+}
+.tarif__item--no:before {
+  background-image: url('img/tarif_no.png');
 }
 .tarif__wrapper {
   display: -ms-flex;
@@ -1048,6 +1120,54 @@ body::-webkit-scrollbar-thumb {
   -ms-flex-pack: justify;
       justify-content: space-between;
   width: 100%;
+}
+.scroll {
+  display: inline-block;
+  width: 40%;
+  height: 4px;
+  display: -ms-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  border-radius: 3px;
+}
+.scroll__item {
+  width: 20%;
+  height: 100%;
+  background-color: #cccccc;
+  transition: all 700ms cubic-bezier(0.65, 0.08, 0.37, 0.99);
+}
+.scroll .active {
+  background-color: #212121;
+  transition: all 700ms cubic-bezier(0.65, 0.08, 0.37, 0.99);
+}
+.feedback {
+  padding: 70px 0;
+  position: relative;
+  left: -15px;
+  display: -ms-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: end;
+      align-items: flex-end;
+}
+.feedback .block__btn {
+  margin-top: 60px;
+}
+.feedback__input {
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 15px;
+  outline: none;
 }
 @media (min-width: 320px) {
   .container {

@@ -8,10 +8,12 @@
             <li class="footer-list__item"><a href="#" class="footer-list__link">/ ИНСТАГРАМ</a></li>
         </ul>
 
-        <div class="scroll">
-            <div class="scroll__item"></div>
-            <div class="scroll__item"></div>
-            <div class="scroll__item"></div>
+        <div class="scroll" id="scroll">
+            <div class="scroll__item active" data-menuanchor="firstPage"></div>
+            <div class="scroll__item" data-menuanchor="secondPage"></div>
+            <div class="scroll__item" data-menuanchor="3rdPage"></div>
+            <div class="scroll__item" data-menuanchor="4thpage"></div>
+            <div class="scroll__item" data-menuanchor="lastPage"></div>
         </div>
         <p class="page-footer__text">СКРОЛЬТЕ ВНИЗ</p>
         <p class="page-footer__text">© 2018 Poseosh.im</p>
