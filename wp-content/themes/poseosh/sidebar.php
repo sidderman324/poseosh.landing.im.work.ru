@@ -1,7 +1,7 @@
-<div class="sidebar">
+<nav class="sidebar">
     <ul class="sidebar__list">
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ГЛАВНАЯ</a></li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ВХОД / РЕГИСТРАЦИЯ</a>
+        <li class="sidebar__item sideLink"><a href="<?=get_site_url()?>" class="sidebar__link">ГЛАВНАЯ</a></li>
+        <li class="sidebar__item sideLink"><a href="http://seo.poseosh.im" class="sidebar__link">ВХОД / РЕГИСТРАЦИЯ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Сервис</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Поддержка</a>
@@ -11,14 +11,14 @@
                 </li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">О СЕРВИСЕ</a>
+        <li class="sidebar__item sideLink"><a href="/o-servise" class="sidebar__link">О СЕРВИСЕ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Как работает?</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Кейсы по продвижению</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Тарифы</a></li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПАРТНЕРАМ</a>
+        <li class="sidebar__item sideLink"><a href="/partneram" class="sidebar__link">ПАРТНЕРАМ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Удаленная работа</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Заработок в интернете</a></li>
@@ -27,7 +27,7 @@
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Заявка на подключение</a></li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="/sample-page" class="sidebar__link">УВЕЛИЧЕНИЕ И РОСТ ПРОДАЖ</a>
+        <li class="sidebar__item sideLink"><a href="/uvelichenie-i-rost-prodazh" class="sidebar__link">УВЕЛИЧЕНИЕ И РОСТ ПРОДАЖ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Поиск и привлечение клиентов</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Менеджер по продажам</a></li>
@@ -40,14 +40,14 @@
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Система продаж</a></li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ОБУЧЕНИЕ ПРОДВИЖЕНИЮ САЙТОВ</a>
+        <li class="sidebar__item sideLink"><a href="/obuchenie-prodvizheniyu-sajtov" class="sidebar__link">ОБУЧЕНИЕ ПРОДВИЖЕНИЮ САЙТОВ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Продвижение сайта самостоятельно</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Как продвинуть сайт</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Страницы справки/Уроки</a></li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА</a>
+        <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Анализ сайта</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Поисковое продвижение сайта</a>
@@ -80,10 +80,7 @@
                 </li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ПОШАГОВАЯ ИНСТРУКЦИЯ</a></li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ИНСТРУКЦИЯ</a></li>
+        <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta-poshagovaya-instrukciya" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ПОШАГОВАЯ ИНСТРУКЦИЯ</a></li>
+        <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta-instrukciya" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ИНСТРУКЦИЯ</a></li>
     </ul>
-</div>
-
-</div>
-</div>
+</nav>

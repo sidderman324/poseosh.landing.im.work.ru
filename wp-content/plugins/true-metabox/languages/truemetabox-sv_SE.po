@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Перевод плагина true-metabox\n"
+"POT-Creation-Date: 2016-06-09 04:52+0400\n"
+"PO-Revision-Date: 2017-03-04 15:00+0100\n"
+"Language-Team: Misha Rudrastyh <true@truemisha.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: Fredric Österlund <info@fredo.nu>\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././class/class.metabox.php:122
+msgid "Select some options"
+msgstr "Välj några alternativ"
+
+#: .././class/class.metabox.php:175 .././class/class.options.php:163
+#: .././class/class.terms.php:188
+msgid "Paste the file URL above or"
+msgstr "Klistra in filens URL ovan eller"
+
+#: .././class/class.metabox.php:175 .././class/class.options.php:163
+#: .././class/class.terms.php:188
+msgid "click here to upload"
+msgstr "Klicka här för att ladda upp"
+
+#: .././class/class.metabox.php:213 .././class/class.options.php:188
+msgid "Preview"
+msgstr "Förhandsvisa"
+
+#: .././class/class.upgrade.php:209
+#, php-format
+msgid ""
+"Can't to read the Version header for %s. The filename may be incorrect, or "
+"the file is not present in /wp-content/plugins."
+msgstr ""
+"Kan inte läsa version för %s. Filnamnet kan vara felaktig, eller filen "
+"inte finns i / wp-content / plugins."
+
+#: .././class/class.upgrade.php:403
+msgid "Check for updates"
+msgstr "Sök efter uppdateringar"
+
+#: .././true-metabox.php:58
+msgid "Upload image"
+msgstr "Ladda upp bild"
+
+#: .././true-metabox.php:70
+msgid "Remove image"
+msgstr "Ta bort bild"
+
+#: .././true-metabox.php:107
+msgid "No video"
+msgstr "Ingen video"
+
+#: .././true-metabox.php:125
+msgid "Latitude"
+msgstr "Latitud"
+
+#: .././true-metabox.php:125
+msgid "Longitude"
+msgstr "Longitud"
+
+#: .././true-metabox.php:125
+msgid "Update map"
+msgstr "Uppdatera kartan"
+
+#: .././true-metabox.php:126
+msgid "Address"
+msgstr "Adress"
+
+#: .././true-metabox.php:126
+msgid "Type to autocomplete"
+msgstr "Skriv för att automatiskt fylla i"
+
+#: .././true-metabox.php:126
+msgid "Locate me"
+msgstr "Hitta mig"
+
+msgid "This plugin is up to date."
+msgstr "Det här tillägget är det senaste."
+
+msgid "A new version of this plugin is available."
+msgstr "Det finns en ny version av det här tillägget."

@@ -7,14 +7,14 @@
 
     <?php
     if( is_page() ){
-        $title = get_post_meta($post->ID, 'seo_title',true);
-        $keywords = get_post_meta($post->ID, 'meta_k',true);
-        $description = get_post_meta($post->ID, 'meta_d',true);
+        $title = get_the_title();
+        $keywords = get_post_meta($post->ID, 'seo_meta_k',true);
+        $description = get_post_meta($post->ID, 'seo_meta_d',true);
     }else{
-        $title = get_bloginfo('name');
+        $title = get_option('main_title');
+        $keywords = get_option('main_meta_k');
+        $description = get_option('main_meta_d');
     }
-
-
     ?>
 
     <meta name="keywords" content="<?=$keywords?>" />
@@ -26,7 +26,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div class="main__wrapper">
+<!--<div class="main__wrapper">-->
 
 <header class="page-header">
     <div class="container page-header__inner">

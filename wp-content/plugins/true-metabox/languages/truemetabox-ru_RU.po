@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Перевод плагина true-metabox\n"
+"POT-Creation-Date: 2017-05-13 10:53+0300\n"
+"PO-Revision-Date: 2017-05-13 10:54+0300\n"
+"Last-Translator: Misha Rudrastyh <true@truemisha.ru>\n"
+"Language-Team: Misha Rudrastyh <true@truemisha.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././class/class.metabox.php:122
+msgid "Select some options"
+msgstr "Выберите…"
+
+#: .././class/class.metabox.php:157
+msgid "Search Posts..."
+msgstr ""
+
+#: .././class/class.metabox.php:253 .././class/class.options.php:163
+#: .././class/class.terms.php:188
+msgid "Paste the file URL above or"
+msgstr "Укажите URL файла, либо "
+
+#: .././class/class.metabox.php:253 .././class/class.options.php:163
+#: .././class/class.terms.php:188
+msgid "click here to upload"
+msgstr "нажмите здесь для загрузки"
+
+#: .././class/class.metabox.php:291 .././class/class.options.php:188
+msgid "Preview"
+msgstr "Просмотр"
+
+#: .././class/class.upgrade.php:209
+#, php-format
+msgid ""
+"Can't to read the Version header for %s. The filename may be incorrect, or "
+"the file is not present in /wp-content/plugins."
+msgstr ""
+
+#: .././class/class.upgrade.php:403
+msgid "Check for updates"
+msgstr "Проверить обновления"
+
+#: .././true-metabox.php:56
+msgid "Insert image"
+msgstr "Добавить изображение"
+
+#: .././true-metabox.php:57
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+#: .././true-metabox.php:58
+msgid "Insert file"
+msgstr "Добавить файл"
+
+#: .././true-metabox.php:59
+msgid "Use this file"
+msgstr "Использовать этот файл"
+
+#: .././true-metabox.php:60
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: .././true-metabox.php:61
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: .././true-metabox.php:63
+msgid "Please enter 1 or more characters."
+msgstr "Нужно ввести больше символов, ещё как минимум 1"
+
+#: .././true-metabox.php:64
+msgid "Please enter %qty% or more characters."
+msgstr "Нужно ввести больше символов, ещё как минимум %qty%"
+
+#: .././true-metabox.php:65
+msgid "No results found"
+msgstr "Соответствий не найдено"
+
+#: .././true-metabox.php:66
+msgid "Searching..."
+msgstr "Поиск…"
+
+#: .././true-metabox.php:75
+msgid "Upload image"
+msgstr "Добавить изображение"
+
+#: .././true-metabox.php:87
+msgid "Remove image"
+msgstr "Удалить"
+
+#: .././true-metabox.php:124
+msgid "No video"
+msgstr "Видео не найдено"
+
+#: .././true-metabox.php:180
+msgid "Latitude"
+msgstr "Широта"
+
+#: .././true-metabox.php:180
+msgid "Longitude"
+msgstr "Долгота"
+
+#: .././true-metabox.php:180
+msgid "Update map"
+msgstr "Применить"
+
+#: .././true-metabox.php:181
+msgid "Address"
+msgstr "Адрес"
+
+#: .././true-metabox.php:181
+msgid "Type to autocomplete"
+msgstr "Начните вводить..."
+
+#: .././true-metabox.php:181
+msgid "Locate me"
+msgstr "Моё местоположение"
+
+#~ msgid "This plugin is up to date."
+#~ msgstr "У вас установлена последняя версия плагина."
+
+#~ msgid "A new version of this plugin is available."
+#~ msgstr "Новая версия плагина уже доступна!"

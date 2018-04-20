@@ -9,7 +9,7 @@
   <title>POSEOSH.im</title>
 </head>
 <body>
-  <div class="main__wrapper">
+  <!-- <div class="main__wrapper"> -->
 
 
     <header class="page-header">
@@ -37,12 +37,12 @@
   </div>
 </header>
 
+
 <div class="main">
   <div class="container main__inner">
+    <div class="main__scroll" id="fullpage">
 
-    <div class="main__scroll">
-
-      <section class="block">
+      <section class="block section" data-anchor="section0" id="section0">
         <p class="block__main-title">SEO</p>
         <div class="block__col">
           <h2 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h2>
@@ -56,7 +56,7 @@
         </div>
       </section>
 
-      <section class="block block--how">
+      <section class="block section block--how" data-anchor="section1" id="section1">
 
         <div class="block__col block__col--how">
           <h2 class="block__title">КАК РАБОТАЕТ<br> СЕРВИС</h2>
@@ -82,7 +82,7 @@
 
       </section>
 
-      <section class="block block--result">
+      <section class="block section block--result" data-anchor="section2" id="section2">
         <div class="block__col">
           <h2 class="block__title">РОСТ ПРОДАЖ<br> С САЙТА</h2>
           <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
@@ -116,7 +116,7 @@
         </div>
       </section>
 
-      <section class="block">
+      <section class="block section" data-anchor="section3" id="section3">
 
         <div class="tarif__wrapper">
 
@@ -180,7 +180,7 @@
 
       </section>
 
-      <section class="block">
+      <section class="block section" data-anchor="section4" id="section4">
         <div class="block__col">
           <h2 class="block__title">КОНТАКТЫ</h2>
 
@@ -216,6 +216,11 @@
 
 
     </div>
+
+
+
+
+
 
     <div class="sidebar">
       <ul class="sidebar__list">
@@ -326,7 +331,7 @@
   </div>
 </footer>
 
-</div>
+<!-- </div> -->
 
 <script src='/js/script.min.js?v=78654664'></script>
 </body>
