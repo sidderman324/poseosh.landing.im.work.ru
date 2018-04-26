@@ -12,28 +12,39 @@
   <!-- <div class="main__wrapper"> -->
 
 
-    <header class="page-header">
-      <div class="container page-header__inner">
-        <a href="/" class="logo">
-          <p class="logo__title">POSEOSH</p>
-          <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ ПРОДАЖ С САЙТА</p>
-        </a>
+  <header class="page-header">
+    <div class="container page-header__inner">
+      <a href="/" class="logo">
+        <img src="/img/logo_color.png" alt="" class="logo__img">
+        <div class="logo__text_wrapper">
+          <p class="logo__title"><span>PO</span><span>SEO</span><span>SH</span></p>
+          <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ<br> ПРОДАЖ С САЙТА</p>
+        </div>
+      </a>
 
-        <div class="city">
-          <div class="city__wrapper">
-            <a href="#" class="city__btn">Да</a>
-            <a href="#" class="city__btn">Нет</a>
-            <p class="city__name">Санкт-Петербург</p>
-            <p class="city__name">Ваш город?</p>
-          </div>
-          <!-- <div class="city__wrapper">
-          <p class="city__name">Санкт-Петербург</p>
-          <select name="" id="" class="city__select">
-          <option value="">Выбрать другой город</option>
+      <div class="city">
+        <!-- <div class="city__wrapper">
+        <a href="#" class="city__btn">Да</a>
+        <a href="#" class="city__btn">Нет</a>
+        <p class="city__name">Санкт-Петербург</p>
+        <p class="city__name">Ваш город?</p>
+      </div> -->
+      <div class="city__wrapper">
+        <p class="city__name">Санкт-Петербург</p>
+        <select name="" id="" class="city__select">
+          <option value="">Выбрать другой</option>
           <option value="">Санкт-Петербург</option>
         </select>
-      </div> -->
+      </div>
     </div>
+
+      <div class="title__wrapper">
+        <p class="title"></p>
+        <a href="http://seo.poseosh.im/site/login/" class="block__btn">Вход</a>
+        <a href="http://seo.poseosh.im/site/signup/" class="block__btn">Регистрация</a>
+      </div>
+
+
   </div>
 </header>
 
@@ -42,21 +53,21 @@
   <div class="container main__inner">
     <div class="main__scroll" id="fullpage">
 
-      <section class="block section" data-anchor="firstPage" id="section0">
+      <section class="block section" data-anchor="firstPage" id="section0" data-name="">
         <p class="block__main-title">SEO</p>
         <div class="block__col">
-          <h2 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h2>
-          <p class="block__text">СОБСТВЕННАЯ РАЗРАБОТКА<br> НА ОСНОВЕ МНОГОЛЕТНЕГО ОПЫТА</p>
+          <h1 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h1>
+          <p class="block__text block__text--main">СОБСТВЕННАЯ РАЗРАБОТКА<br> НА ОСНОВЕ МНОГОЛЕТНЕГО ОПЫТА</p>
 
-          <a href="#" class="block__btn">Приступить</a>
+          <a href="http://seo.poseosh.im/site/signup/" class="block__btn">Приступить</a>
         </div>
         <div class="block__col">
           <h2 class="block__title">РОСТ ПРОДАЖ<br> ЧЕРЕЗ ИНТЕРНЕТ<br> В 3 РАЗА ЗА 2 НЕДЕЛИ</h2>
-          <p class="block__text">СЕРВИС РАССЧИТАН НА САМОСТОЯТЕЛЬНОЕ ПРОДВИЖЕНИЕ<br> ВАШИХ ВЕБ-САЙТОВ ПО ПРИНЦИПУ АНАЛИЗА ПОИСКОВОЙ ВЫДАЧИ</p>
+          <p class="block__text block__text--main">СЕРВИС РАССЧИТАН НА САМОСТОЯТЕЛЬНОЕ ПРОДВИЖЕНИЕ<br> ВАШИХ ВЕБ-САЙТОВ ПО ПРИНЦИПУ АНАЛИЗА ПОИСКОВОЙ ВЫДАЧИ</p>
         </div>
       </section>
 
-      <section class="block section block--how" data-anchor="secondPage" id="section1">
+      <section class="block section block--how" data-anchor="secondPage" id="section1" data-name="<span>01</span> КАК И ЗАЧЕМ?">
 
         <div class="block__col block__col--how block__col--pic">
           <h2 class="block__title">КАК РАБОТАЕТ<br> СЕРВИС</h2>
@@ -82,7 +93,7 @@
 
       </section>
 
-      <section class="block section block--result" data-anchor="3rdPage" id="section2">
+      <section class="block section block--result" data-anchor="3rdPage" id="section2" data-name="<span>02</span> Результаты">
         <div class="block__col">
           <h2 class="block__title">РОСТ ПРОДАЖ<br> С САЙТА</h2>
           <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
@@ -116,7 +127,7 @@
         </div>
       </section>
 
-      <section class="block section" data-anchor="4thpage" id="section3">
+      <section class="block section" data-anchor="4thpage" id="section3" data-name="<span>03</span> Тарифы">
 
         <div class="tarif__wrapper">
 
@@ -180,7 +191,7 @@
 
       </section>
 
-      <section class="block section block--how" data-anchor="lastPage" id="section4">
+      <section class="block section block--how" data-anchor="lastPage" id="section4" data-name="<span>04</span> Контакты и поддержка">
         <div class="block__col block__col--contact block__col--how block__col--pic">
           <h2 class="block__title">КОНТАКТЫ</h2>
 
@@ -220,12 +231,11 @@
 
 
 
-
-
     <nav class="sidebar">
+      <p class="sidebar__burger"><span class="sidebar__burger--strip"></span>М<br>е<br>н<br>ю</p>
       <ul class="sidebar__list">
         <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ГЛАВНАЯ</a></li>
-        <li class="sidebar__item sideLink"><a href="#" class="sidebar__link">ВХОД / РЕГИСТРАЦИЯ</a>
+        <li class="sidebar__item sideLink"><a href="http://seo.poseosh.im/site/login/" class="sidebar__link">ВХОД</a> / <a href="http://seo.poseosh.im/site/signup/" class="sidebar__link">РЕГИСТРАЦИЯ</a>
           <ul class="submenu submenu1st">
             <li class="submenu__item sideLink"><a href="#" class="submenu__link">Сервис</a></li>
             <li class="submenu__item sideLink"><a href="#" class="submenu__link">Поддержка</a>

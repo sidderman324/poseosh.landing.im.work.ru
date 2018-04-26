@@ -51,23 +51,35 @@ if ($city == 'Москва') {
 <header class="page-header">
     <div class="container page-header__inner">
         <a href="/" class="logo">
-            <p class="logo__title">POSEOSH</p>
-            <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ ПРОДАЖ С САЙТА</p>
-        </a>
-        <div class="city">
-            <div class="city__wrapper">
-                <a href="#" class="city__btn">Да</a>
-                <a href="#" class="city__btn">Нет</a>
-                <p class="city__name">Санкт-Петербург</p>
-                <p class="city__name">Ваш город?</p>
+            <img src="/img/logo_color.png" alt="" class="logo__img">
+            <div class="logo__text_wrapper">
+                <p class="logo__title"><span>PO</span><span>SEO</span><span>SH</span></p>
+                <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ<br> ПРОДАЖ С САЙТА</p>
             </div>
+        </a>
+
+        <div class="city">
             <!-- <div class="city__wrapper">
+            <a href="#" class="city__btn">Да</a>
+            <a href="#" class="city__btn">Нет</a>
             <p class="city__name">Санкт-Петербург</p>
-            <select name="" id="" class="city__select">
-            <option value="">Выбрать другой город</option>
-            <option value="">Санкт-Петербург</option>
-          </select>
-        </div> -->
+            <p class="city__name">Ваш город?</p>
+          </div> -->
+            <div class="city__wrapper">
+                <p class="city__name">Санкт-Петербург</p>
+                <select name="" id="" class="city__select">
+                    <option value="">Выбрать другой</option>
+                    <option value="">Санкт-Петербург</option>
+                </select>
+            </div>
         </div>
+
+        <div class="title__wrapper">
+            <p class="title"></p>
+            <a href="http://seo.poseosh.im/site/login/" class="block__btn">Вход</a>
+            <a href="http://seo.poseosh.im/site/signup/" class="block__btn">Регистрация</a>
+        </div>
+
+
     </div>
 </header>

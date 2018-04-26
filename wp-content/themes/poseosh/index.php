@@ -5,21 +5,21 @@
 
         <div class="main__scroll" id="fullpage">
 
-            <section class="block section" data-anchor="firstPage" id="section0">
+            <section class="block section" data-anchor="firstPage" id="section0" data-name="">
                 <p class="block__main-title">SEO</p>
                 <div class="block__col">
-                    <h2 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h2>
-                    <p class="block__text">СОБСТВЕННАЯ РАЗРАБОТКА<br> НА ОСНОВЕ МНОГОЛЕТНЕГО ОПЫТА</p>
+                    <h1 class="block__title">УНИКАЛЬНЫЙ<br> СЕРВИС ПРОДВИЖЕНИЯ<br> САЙТОВ</h1>
+                    <p class="block__text block__text--main">СОБСТВЕННАЯ РАЗРАБОТКА<br> НА ОСНОВЕ МНОГОЛЕТНЕГО ОПЫТА</p>
 
-                    <a href="http://seo.poseosh.im" class="block__btn">Приступить</a>
+                    <a href="http://seo.poseosh.im/site/signup/" class="block__btn">Приступить</a>
                 </div>
                 <div class="block__col">
                     <h2 class="block__title">РОСТ ПРОДАЖ<br> ЧЕРЕЗ ИНТЕРНЕТ<br> В 3 РАЗА ЗА 2 НЕДЕЛИ</h2>
-                    <p class="block__text">СЕРВИС РАССЧИТАН НА САМОСТОЯТЕЛЬНОЕ ПРОДВИЖЕНИЕ<br> ВАШИХ ВЕБ-САЙТОВ ПО ПРИНЦИПУ АНАЛИЗА ПОИСКОВОЙ ВЫДАЧИ</p>
+                    <p class="block__text block__text--main">СЕРВИС РАССЧИТАН НА САМОСТОЯТЕЛЬНОЕ ПРОДВИЖЕНИЕ<br> ВАШИХ ВЕБ-САЙТОВ ПО ПРИНЦИПУ АНАЛИЗА ПОИСКОВОЙ ВЫДАЧИ</p>
                 </div>
             </section>
 
-            <section class="block section block--how" data-anchor="secondPage" id="section1">
+            <section class="block section block--how" data-anchor="secondPage" id="section1" data-name="<span>01</span> КАК И ЗАЧЕМ?">
 
                 <div class="block__col block__col--how block__col--pic">
                     <h2 class="block__title">КАК РАБОТАЕТ<br> СЕРВИС</h2>
@@ -30,7 +30,7 @@
                         <li class="block__item">ПИШИТЕ ЗАПРОСЫ ПО КОТОРЫМ ВАС ИЩУТ<br> ФРАЗЫ КОТОРЫЕ ИСПОЛЬЗУЮТ В ПОИСКОВИКЕ</li>
                         <li class="block__item">ВЫПОЛНЯЙТЕ РЕКОМЕНДАЦИИ СЕРВИСА<br> НЕ СЛОЖНЕЕ ЧЕМ НАПИСАТЬ СМСКУ</li>
                     </ul>
-                    <a href="http://seo.poseosh.im" class="block__btn">Приступить</a>
+                    <a href="#" class="block__btn">Приступить</a>
                 </div>
                 <div class="block__col block__col--how">
                     <h2 class="block__title">ДЛЯ КАКИХ ЦЕЛЕЙ<br> НУЖЕН СЕРВИС</h2>
@@ -45,7 +45,7 @@
 
             </section>
 
-            <section class="block section block--result" data-anchor="3rdPage" id="section2">
+            <section class="block section block--result" data-anchor="3rdPage" id="section2" data-name="<span>02</span> Результаты">
                 <div class="block__col">
                     <h2 class="block__title">РОСТ ПРОДАЖ<br> С САЙТА</h2>
                     <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
@@ -79,7 +79,7 @@
                 </div>
             </section>
 
-            <section class="block section" data-anchor="4thpage" id="section3">
+            <section class="block section" data-anchor="4thpage" id="section3" data-name="<span>03</span> Тарифы">
 
                 <div class="tarif__wrapper">
 
@@ -143,7 +143,7 @@
 
             </section>
 
-            <section class="block section block--how" data-anchor="lastPage" id="section4">
+            <section class="block section block--how" data-anchor="lastPage" id="section4" data-name="<span>04</span> Контакты и поддержка">
                 <div class="block__col block__col--contact block__col--how block__col--pic">
                     <h2 class="block__title">КОНТАКТЫ</h2>
 
