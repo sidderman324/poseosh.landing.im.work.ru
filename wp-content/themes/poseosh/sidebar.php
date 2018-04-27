@@ -1,7 +1,8 @@
 <nav class="sidebar">
+  <a href="#" class="block__btn block__btn--menu">Меню</a>
     <ul class="sidebar__list">
         <li class="sidebar__item sideLink"><a href="<?=get_site_url()?>" class="sidebar__link">ГЛАВНАЯ</a></li>
-        <li class="sidebar__item sideLink"><a href="http://seo.poseosh.im" class="sidebar__link">ВХОД / РЕГИСТРАЦИЯ</a>
+         <li class="sidebar__item sideLink"><a href="http://seo.poseosh.im/site/login/" class="sidebar__link">ВХОД</a> / <a href="http://seo.poseosh.im/site/signup/" class="sidebar__link">РЕГИСТРАЦИЯ</a>
             <ul class="submenu submenu1st">
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Сервис</a></li>
                 <li class="submenu__item sideLink"><a href="#" class="submenu__link">Поддержка</a>
