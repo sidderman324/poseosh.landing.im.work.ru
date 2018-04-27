@@ -634,21 +634,22 @@ body::-webkit-scrollbar-thumb {
   -ms-flex-preferred-size: 30%;
   flex-basis: 30%;
   display: -ms-flex;
-  width: 30%;
+  width: 420px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-align: start;
   align-items: flex-start;
+  justify-content: flex-end;
   position: fixed;
-  padding-left: 35px;
+  padding-right: 60px;
   padding-top: 3%;
   overflow: visible;
   height: 100vh;
   z-index: 10;
   top: 0;
-  left: -27%;
+  left: -378px;
   transition: 0.3s;
   background-color: #fff;
   z-index: 100;
@@ -665,7 +666,7 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 70%);
   z-index: 0;
 }
-.sidebar:before {
+/* .sidebar:before {
   content: '';
   display: inline-block;
   height: 200vh;
@@ -675,13 +676,14 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 .sidebar__burger {
   display: none;
 }
 .sidebar__list {
-  position: absolute;
-  z-index: 10;
+  /* position: absolute; */
+  /* z-index: 10; */
+  display: block;
 }
 .sidebar__item {
   list-style-type: none;
@@ -699,7 +701,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 0.8em;
   color: #212121;
   display: inline-block;
-  text-align: left;
+  text-align: right;
   text-decoration: none;
   position: relative;
   line-height: 26px;
@@ -756,8 +758,8 @@ body::-webkit-scrollbar-thumb {
 }
 .city {
   text-align: right;
-  -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
   padding-left: 35px;
 }
 .city__wrapper {
@@ -896,7 +898,7 @@ body::-webkit-scrollbar-thumb {
 }
 .block__main-title {
   font-size: 16.25em;
-  color: #f5f5f5;
+  color: #fff;
   display: inline-block;
   text-decoration: none;
   position: relative;
@@ -912,10 +914,10 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   background-image: url('img/main_bgr.png');
   background-repeat: no-repeat;
-  width: 110%;
+  width: 140%;
   position: absolute;
   z-index: -1;
-  left: 0;
+  left: -10%;
   top: 0;
   background-size: cover;
   background-position: center;
@@ -1275,16 +1277,24 @@ body::-webkit-scrollbar-thumb {
   background-color: #808080;
 }
 @media(min-width: 320px) {
-  .container {width: 320px;}
+  .container {
+    width: 320px;
+  }
 }
 @media(min-width: 740px) {
-  .container {width: 740px;}
+  .container {
+    width: 740px;
+  }
 }
 @media(min-width: 992px) {
-  .container {width: 992px;}
+  .container {
+    width: 992px;
+  }
 }
 @media(min-width: 1200px) {
-  .container {width: 1200px;}
+  .container {
+    width: 1200px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1373,11 +1383,12 @@ body::-webkit-scrollbar-thumb {
   }
   .sidebar {
     padding-top: 3%;
-    -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
-    width: 30%;
+    background-color: transparent;
+    width: 380px;
     transition: 0.3s;
+    left: -338px;
   }
+
   .city {
     -ms-flex-preferred-size: 34%;
     flex-basis: 34%;
@@ -1447,33 +1458,15 @@ body::-webkit-scrollbar-thumb {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     width: 100%;
+    padding: 0 30px;
   }
-  .sidebar {
-    right: -30%;
-    background-color: #f5f5f5;
-    transition: 0.3s;
+  .page-header__inner {
+    padding: 0 35px;
   }
-  .sidebar--visible {
-    right: 0;
-    transition: 0.3s;
+  .page-footer__inner {
+    padding: 0 35px;
   }
-  .sidebar__burger {
-    display: block;
-    font-size: 1em;
-    color: #f5f5f5;
-    display: inline-block;
-    text-align: left;
-    text-decoration: none;
-    position: relative;
-    padding: 10px 10px 10px 10px;
-    position: absolute;
-    right: 100%;
-    text-align: center;
-    font-weight: 600;
-    top: 10%;
-    background-color: #212121;
-    transition: 0.3s;
-  }
+
   .page-footer {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 0%);
   }
@@ -1540,7 +1533,7 @@ body::-webkit-scrollbar-thumb {
   .sidebar {
     width: 100%;
     height: 110%;
-    right: -100%;
+    left: -97%;
     transition: 0.3s;
     padding-left: 45px;
     padding-right: 35px;

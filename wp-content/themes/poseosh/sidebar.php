@@ -81,7 +81,7 @@
                 </li>
             </ul>
         </li>
-        <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta-poshagovaya-instrukciya" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ПОШАГОВАЯ ИНСТРУКЦИЯ</a></li>
+        <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta-poshagovaya-instrukciya" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА<br> ПОШАГОВАЯ ИНСТРУКЦИЯ</a></li>
         <li class="sidebar__item sideLink"><a href="/prodvizhenie-sajta-instrukciya" class="sidebar__link">ПРОДВИЖЕНИЕ САЙТА ИНСТРУКЦИЯ</a></li>
     </ul>
 </nav>

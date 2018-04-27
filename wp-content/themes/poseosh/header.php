@@ -51,7 +51,7 @@ if ($city == 'Москва') {
 <header class="page-header">
     <div class="container page-header__inner">
         <a href="/" class="logo">
-            <img src="/img/logo_color.png" alt="" class="logo__img">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo_color.png" alt="" class="logo__img">
             <div class="logo__text_wrapper">
                 <p class="logo__title"><span>PO</span><span>SEO</span><span>SH</span></p>
                 <p class="logo__text">СЕРВИС УВЕЛИЧЕНИЯ<br> ПРОДАЖ С САЙТА</p>

@@ -52,7 +52,7 @@
           <h2 class="block__title">РОСТ ПРОДАЖ<br> С САЙТА</h2>
           <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
           <div class="block__logo-wrapper">
-            <img src="/img/negabarite_logo.png" alt="" class="block__logo">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/negabarite_logo.png" alt="" class="block__logo">
           </div>
           <ul class="block__list block__list--result">
             <li class="block__item"><span>СФЕРА: </span><span>ПЕРЕВОЗКА НЕГАБАРИТНЫХ ГРУЗОВ ПО ВСЕЙ РОССИИ</span></li>
@@ -68,7 +68,7 @@
           <h2 class="block__title">РЕЗУЛЬТАТИВНОСТЬ <br>РАБОТЫ В СЕРВИСЕ</h2>
           <p class="block__text block__text--bold">УВЕЛИЧЕНИЕ КОНВЕРСИИ</p>
           <div class="block__logo-wrapper">
-            <img src="/img/kweb_logo.png" alt="" class="block__logo">
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/img/kweb_logo.png" alt="" class="block__logo">
           </div>
           <ul class="block__list block__list--result">
             <li class="block__item"><span>СФЕРА: </span><span>ВЕБ УСЛУГИ, УСЛУГИ ПО ОРГАНИЗАЦИИ ICO</span></li>
